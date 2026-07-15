@@ -10,7 +10,7 @@ cask "accentra" do
   desc "Type accented characters by holding a key and cycling through variants"
   homepage "https://ipavicevic.github.io/Accentra/mac.html"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Accentra.app"
 
