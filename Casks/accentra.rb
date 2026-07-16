@@ -1,11 +1,11 @@
 cask "accentra" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.0.0"
-  sha256 arm:   "a9d0475fad7c455789ea04a7659644d08b9a2ffa3f3ceea0dd52c1a5519148b0",
-         intel: "59fade4acd762b91a8edb0ef4d33a5516d82712485e85264bf5e4715ea1c79c9"
+  version "1.0.1"
+  sha256 arm:   "f81fff7081377be819c7b6e29e07a5e8e2155bc077988efdb5297905e714755d",
+         intel: "34d11127aca853764ab84c59dc46a1db6e10cde5c097e6bd6ee86e14ed25b3d9"
 
-  url "https://github.com/ipavicevic/Accentra/releases/download/mac-v#{version}/Accentra-#{version}-#{arch}.zip"
+  url "https://github.com/ipavicevic/Accentra/releases/download/mac-v#{version}/Accentra-#{version}-#{arch}.dmg"
   name "Accentra"
   desc "Type accented characters by holding a key and cycling through variants"
   homepage "https://ipavicevic.github.io/Accentra/mac.html"
