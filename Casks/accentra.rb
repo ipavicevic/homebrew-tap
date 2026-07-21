@@ -1,9 +1,9 @@
 cask "accentra" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.1.0"
-  sha256 arm:   "d957a9afa5548057f55c7b066f806c6948a4812af5cb7bb702c370dbad63acac",
-         intel: "d8d8d856f4aa9331bb6e6a29e9c01bb64ddb1c0925de91e1a72235aa1ad0fdd6"
+  version "1.1.1"
+  sha256 arm:   "b5df46b5d58141c364abc2aa8a36fd32891da2f27972e2f4e04b255200f8f872",
+         intel: "4b370ed32337e5e1163d30f41be4221dda95ec5ab212f2e4a96fe2280c516950"
 
   url "https://github.com/ipavicevic/Accentra/releases/download/mac-v#{version}/Accentra-#{version}-#{arch}.dmg"
   name "Accentra"
